@@ -3,6 +3,7 @@
     <router-view/>
     <go-top></go-top>
   </div>
+
 </template>
 
 <script>
@@ -17,10 +18,13 @@ export default {
 * { margin: 0; padding: 0; }
 
 body {
-	background-color: #f5f5f5;
+  background:url('assets/img/back.jpg');
 	font-weight: 400;
 	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 	line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 a {
     cursor: pointer;
@@ -43,4 +47,5 @@ body{position:relative;}
 #app{
 
 }
+
 </style>
